@@ -45,7 +45,9 @@ The data has no card id, so a card can appear in more than one split. That match
 
 Three examples of each class are in [samples.md](samples.md).
 
-**What I noticed.** All three fraud samples have higher transaction amounts than all three non-fraud samples.
+**What I noticed.** All three fraud samples have higher transaction amounts than all three non-fraud samples. All three fraud samples used credit cards, while one of the three non-fraud samples used a debit card.
+
+**From the data check.** In the full training split, `data_check.py` reports a median amount of 75.00 for fraud and 68.95 for not fraud.
 
 ## 4. Method
 
