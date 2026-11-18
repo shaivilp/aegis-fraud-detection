@@ -17,3 +17,10 @@ wandb/
 
 # OS files
 .DS_Store
+
+# Kaggle competition data: it may not be redistributed, so it never goes in this repository
+ieee_data/
+*.csv
+*.csv.zip
+*.parquet
+kaggle.json
